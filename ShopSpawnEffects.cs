@@ -42,7 +42,7 @@ namespace ShopSpawnEffects
         {
             if (JsonSpawnEffects == null || SHOP_API == null) return;
 
-            SHOP_API.CreateCategory(CategoryName, "Эффекты при спавне");
+            SHOP_API.CreateCategory(CategoryName, "Р­С„С„РµРєС‚С‹ РїСЂРё СЃРїР°РІРЅРµ");
 
             foreach (var item in JsonSpawnEffects!.Properties())
             {
